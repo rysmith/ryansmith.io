@@ -10,12 +10,13 @@
 
     <title>Friends</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Vendor styles -->
+    <link href="bower_components/bootswatch/simplex/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link href="./css/stylesheet.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,11 +36,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Ryan Smith</a>
+          <a class="navbar-brand" href="index.html">ryansmith.io</a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
-            <li><a href="about.html"><i title="about" class="fa fa-info-circle fa-fw"></i> About</a></li>
             <li><a href="work.html"><i title="work" class="fa fa-briefcase fa-fw"></i> Resume</a></li>
             <li class="active"><a href="friends.html"><i title="friends" class="fa fa-users fa-fw"></i> Friends</a></li>
             <li><a href="contact.html"><i title="contact" class="fa fa-phone fa-fw"></i> Contact</a></li>
@@ -48,16 +48,19 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container white-bg">
 
-      <div class="basic">
-        <h1>Friends and Family</h1>
+      <div class="row">
+        <div class="col-md-12">
+        <h2>Friends and Family</h2>
         <hr>
         <h3><i class="fa fa-home"></i> Construction &amp; Property Management</h3>
-          <p>If you need a reliable drywall contractor, call my dad.  He's been in the business for over 50 years, and is a complete bad ass.</br>
-             Lee Smith at <a href="http://specialtytextures.com">Signature Textures</a></p>
-          <p>If you're looking for a reliable and professional apartment management company that's always watching the bottom line, talk to Scott.</br>
-             Scott Safadi at <a href="http://calbaypm.com/">Cal Bay Property Management</a></p>
+          <p>If you need a reliable drywall contractor, call Lee Smith.  He's been in the business for over 50 years, and solve any construction related problem you have.  His is an expert in residential remodels, texture matching, and acoustical removal.  Specialty Textures sevices San Jose and the greater South Bay Area.  Give him a call for a free estimate.</br>
+             Lee Smith at <a href="http://specialtytextures.com">Signature Textures</a><br>
+             Tel: 408-515-0066</p>
+          <p>If you're looking for a reliable and professional apartment management company that's always watching your bottom line, talk to Scott.</br>
+             Scott Safadi at <a href="http://calbaypm.com/">Cal Bay Property Management</a><br>
+             Tel: (408) 871-2740</p>
         <h3><i class="fa fa-gavel"></i> Legal</h3>
           <p>Deposition tomorrow?  Need 5,000 pages blown back ASAP?  Call Shaun.</br>
              Shaun Sullivan at <a href="http://blackstonediscovery.com/">Blackstone Discovery</a></p>
@@ -65,16 +68,22 @@
              Need to easily search, find, and track your trial exhbits?  Try <a href="http://trexdb.com/">Trexdb</a>.</br>
              Want some sweet trial exhibit stickerts? <a href="http://www.trialexhibitstickers.com/pdfs/sample_swaylaw_stickers_2013.pdf">Get some!</a></br>
              Howard Loo at <a href="http://www.swaylaw.com/">Sway Law</a></p>
+          <p>If you need an experienced civil litigator, call Dan Shafer.<br>
+          Daniel M. Shafer is a Silicon Valley attorney specializing in business, intellectual property, and media/entertainment law, including commercial, litigation, and regulatory matters. He advises and represents smart companies and business-minded individuals, helping them to achieve their most important objectives.<br>
+           Dan Shafer at <a href="http://www.danshaferlaw.com">The Law Office of Daniel M. Shafer</a><br>
+           Tel: (408) 471-8636</p>
         <h3><i class="fa fa-medkit"></i> Medical &amp; Dental</h3>
           <p>Need a good looking dentist in the Santa Cruz area?  Dr. Drew is your man.</br>
              Jason Drew, DDS at <a href="http://aptosdentist.com/">Aptos Dental</a></br>
           <p>Let's say your leg has just been crushed by a big rock while your hiking.  Let's hope you bought a medical kit from my sister before you left.</br>
              Annie Smith at <a href="http://www.adventuremedicalkits.com">Adventure Medical Kits</a></p>
       </div>
+    </div>
+
       <hr class="bottom-divider">
       <footer>
-        <p>&copy; 2014 Ryan Smith</p>
-      </footer>
+        <p>&copy; 2014 Ryan Smith<span class="pull-right"><a href=https://www.linkedin.com/in/rysmith> <i class="fa fa-linkedin-square"></i></a> <a href=https://github.com/rysmith><i class="fa fa-github-alt"></i></p>
+        </footer>
     </div><!-- /.container -->
 
 
@@ -82,8 +91,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/jquery.backstretch.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.js"></script>
     <script>
         $.backstretch("./img/IMG_0137_small.jpg");
     </script>

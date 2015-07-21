@@ -1,33 +1,37 @@
 .navbar {
   padding: 10px;
-
+  margin-bottom:0px;
 }
 
-.basic {
-  padding: 40px;
-  text-align: left;
-  background-color:#FFFFFF;
-  border-radius: 8px;
-  opacity: 0.95;
+.white-bg {
+  margin-top:40px;
+  padding-top:20px;
+  background:#fff;
+  padding-left:50px;
+  padding-right:50px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.basic-center {
-  text-align: center;
+.basic-jumbo {
   padding: 40px 5px;
   margin-top: 50px;
-}
-
-.basic-center a {
   color:#ffffff;
   font-weight: 100;
   font-size: 70px;
-  letter-spacing: 15px;
+  letter-spacing: 7px;
 }
 
+
 footer {
-  color:#FFFFFF;
+  padding-bottom:10px;
 }
 
 .bottom-divider {
-  margin: 50px 0px 10px 0px;
+  margin: 50px 0px 30px 0px;
+}
+
+body {
+  background: url(../img/subtle_white_feathers.png);
+  height:100%;
+
 }
