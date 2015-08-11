@@ -73,7 +73,7 @@ body {
 }
 
 .project-thumb {
-  width: 520px;
+  width: 100%;
   margin-top:40px;
   background-color: grey;
   padding: 5px;
