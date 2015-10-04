@@ -72,6 +72,10 @@ body {
   margin: 0 10px 0 10px;
 }
 
+.carousel-image {
+  height: 100%;
+}
+
 .project-thumb {
   width: 100%;
   margin-top:40px;
@@ -87,3 +91,4 @@ body {
 .right-align {
   text-align: right;
 }
+
