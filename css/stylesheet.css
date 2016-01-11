@@ -88,6 +88,10 @@ body {
   margin-top: 70px;
 }
 
+.project-focus h1 {
+  display: inline;
+}
+
 .right-align {
   text-align: right;
 }
@@ -95,4 +99,8 @@ body {
 .project-info {
   font-size: 15px;
   color: #777777;
+}
+
+.no-underline:hover {
+  text-decoration: none;
 }
